@@ -6,7 +6,7 @@ WORKDIR /app
 
 COPY package.json package.json
 COPY ./packages ./packages
-COPY pnpm-lock-yaml pnpm-lock-yaml
+COPY pnpm-lock.yaml pnpm-lock.yaml
 COPY pnpm-workspace.yaml pnpm-workspace.yaml
 COPY turbo.json turbo.json
 COPY ./apps/ws ./apps/ws
